@@ -6,7 +6,8 @@ well it is web development framework that is based on python language.
 well what is its working? django framework works on MVT.
 where M is modal, V = views, T= template
 
-MOdel is just used to create our database without using any sql query. yeah you are seeing clearly withou using of any sql. 
+MOdel is just used to create our database without using any sql query. 
+yeah you are seeing it clearly without using of any sql. 
 Django in backend perform all sql based command automatically. so it is pretty handy
 
 now view is used to collect those information of model. means it is used to perform all crud operation. it is also take user input and connect to models and vice versa.
