@@ -22,12 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'km6sq*^#q7v0b20m-22ju!@_0j3+p^l-ow6k7lv=&a$d9th!9-'
+
 SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['deepcrm.herokuapp.com']
+ALLOWED_HOSTS = ['ur website domain']
 
 
 # Application definition
@@ -83,9 +83,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'CRM_DATABASE',
-        'USER': 'postgres',
-        'PASSWORD': '501366',
+        
        
     }
 }
